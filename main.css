@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  background-color: #4f000b;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  margin-top: 50vh;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  display: block;
+  height: auto;
+  width: 80%;
+}
+
+
+
+.menu-burger {
+  position: fixed;
+}
+
+.menu-burger a, .link {
+  color: #e9c46a;
+  font-size: 30px;
+}
+
+.menu-burger a:hover,
+.link:hover {
+  color: #e9c46a;
+  cursor: pointer;
+}
+
+.menu-lateral {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #ff7f51;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menu-lateral a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #4f000b;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu-lateral a:hover {
+  color: black;
+}
+
+.menu-lateral .boton-cerrar {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+footer {
+  margin-top: 50vh;
+  margin-bottom: 10vh;
+}
+
+.autor {
+  bottom: 10px;
+    left: 5px;
+    position: absolute;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  height: 30vh;
+  background-color: white;
+  border: medium solid #222;
+}
+
+.item {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #ce4257;
+  border: medium solid #ff7f51;
+  text-align: center;
+}
+
+.container-mobile {
+  width: 40vw;
+  height: 70vh;
+  display: flex;
+  background-color: white;
+  border: medium solid #222;
+  margin: 50px auto;
+  max-width: 350px;
+}
+
+.green {
+  background-color:#26af21;
+  width: 75px;
+  height: 75px;
+}
+
+.orange {
+  background-color:#d3770d;
+  width: 75px;
+  height: 75px;
+}
+
+.pink {
+  background-color:#cc0dd3;
+  width: 75px;
+  height: 75px;
+}
+
+.item2 {
+  border: 5px solid #ff7f51;
+}

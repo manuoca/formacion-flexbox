@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso flex</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <script>
+        function alInicio() {
+            elem = document.querySelectorAll(".menu-lateral a");
+            elem.forEach(e => {
+                e.addEventListener("click", cerrarMenu, false);
+            });
+
+        }
+        function abrirMenu() {
+            document.querySelector(".menu-lateral").style.width = "250px";
+        }
+
+        function cerrarMenu() {
+            document.querySelector(".menu-lateral").style.width = "0";
+        }
+
+    </script>
+</head>
+
+<body onload="alInicio();">
+    <div class="menu-burger">
+        <a onclick="abrirMenu()">&#9776; Menú</a>
+    </div>
+
+    <div class="menu-lateral">
+        <a href="javascript:void(0)" class="boton-cerrar">&times;</a>
+        <a href="#flex-intro">Introducción</a>
+        <a href="#flex-container">Flex Container</a>
+        <a href="#flex-ejemplos">Ejemplos</a>
+        <a href="#flex-ejercicios">Ejercicios</a>
+        <a href="#flex-juegos">Juegos</a>
+        <a href="#flex-recursos">Recursos</a>
+        <a href="#flex-referencia">Referencia</a>
+        <span class="autor">Manuel Ocaña Hernández</span>
+    </div>
+    </div>
+
+    <h1>Playground Curso Flexbox</h1>
+
+    <h2 id="flex-intro">Introducción</h2>
+
+    <img src="./img/flexbox-como-funciona.png" alt="Conceptos Básicos">
+
+    <h2 id="flex-container">Flex container</h2>
+    <section class="container">
+        <!-- .item*3>{item$} -->
+        <div class="item">flex item 1</div>
+        <div class="item">flex item 2</div>
+        <div class="item">flex item 3</div>
+    </section>
+    <br><br>
+    <!-- <section class="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+        <div class="item">item6</div>
+        <div class="item">item7</div>
+        <div class="item">item8</div>
+        <div class="item">item9</div>
+        <div class="item">item10</div>
+        <div class="item">item11</div>
+        <div class="item">item12</div>
+        <div class="item">item13</div>
+    </section> -->
+    <h2 id="flex-ejemplos">Ejemplos</h2>
+    <ul>
+        <li><a class="link" href="https://codepen.io/dudleystorey/full/umrnE/">Flexbox Layout ejemplo 1</a></li>
+        <li><a class="link" href="https://codepen.io/KittyGiraudel/pen/qIAwr">Flexbox Layout ejemplo 2</a></li>
+        <li><a class="link" href="https://codepen.io/KittyGiraudel/pen/pkwqH">Flexbox Layout ejemplo 3</a></li>
+    </ul>
+    <h2 id="flex-ejercicios">Ejercicios</h2>
+    <section class="container-mobile">
+        <div class="item2 green"></div>
+        <div class="item2 orange"></div>
+        <div class="item2 pink"></div>
+    </section>
+    <h2 id="flex-juegos">Juegos</h2>
+    <ul>
+        <li><a class="link" href="https://flexboxfroggy.com/#es">https://flexboxfroggy.com/#es</a></li>
+        <li><a class="link" href="http://www.flexboxdefense.com/">http://www.flexboxdefense.com/</a></li>
+        <li><a class="link" href="https://mastery.games/post/flexboxzombies2/">https://mastery.games/post/flexboxzombies2/</a></li>
+        <li><a class="link" href="https://codingfantasy.com/games/flexboxadventure">https://codingfantasy.com/games/flexboxadventure</a></li>
+    </ul>
+    <h2 id="flex-recursos">Recursos</h2>
+    <ul>
+        <li><a class="link" href="http://flexbox.help/">http://flexbox.help</a></li>
+        <li><a class="link" href="https://the-echoplex.net/flexyboxes/">https://the-echoplex.net/flexyboxes/</a></li>
+        <li><a class="link" href="https://bennettfeely.com/flexplorer/">https://bennettfeely.com/flexplorer/</a></li>
+        <li><a class="link" href="https://www.udemy.com/course/curso-de-flexbox-desde-0/">https://www.udemy.com/course/curso-de-flexbox-desde-0/</a></li>
+    </ul>
+    <h2 id="flex-referencia">Referencia</h2>
+    <ul>
+        <li><a class="link" href="https://lenguajecss.com/css/maquetacion-y-colocacion/flexbox/">https://lenguajecss.com/css/maquetacion-y-colocacion/flexbox/</a></li>
+        <li><a class="link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></li>
+    </ul>
+</body>
+<footer>
+    <h1>Gracias!</h1>
+    <h3>Manuel Ocaña Hernández</h3>
+</footer>
+</html>
