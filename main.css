@@ -3,7 +3,7 @@ html {
   font-size: 18px;
   font-family: sans-serif;
   scroll-behavior: smooth;
-  background-color: #4f000b;
+  background-color: #2bab44;
 }
 
 *,
@@ -114,7 +114,6 @@ li {
 
 .container {
   display: flex;
-  height: 30vh;
   background-color: white;
   border: medium solid #222;
 }
@@ -122,12 +121,12 @@ li {
 .item {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #ce4257;
-  border: medium solid #ff7f51;
+  background-color: #8f2ac7;
+  border: medium solid #a78eff;
   text-align: center;
 }
 
-.container-mobile {
+.container-game {
   width: 40vw;
   height: 70vh;
   display: flex;
