@@ -115,7 +115,7 @@ li {
 .container {
   display: flex;
   background-color: white;
-  border: medium solid #222;
+  border: 10px solid #222;
 }
 
 .item {
