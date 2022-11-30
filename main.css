@@ -112,20 +112,6 @@ li {
   list-style: none;
 }
 
-.container {
-  display: flex;
-  background-color: white;
-  border: 10px solid #222;
-}
-
-.item {
-  padding: 1rem;
-  font-size: 1.25rem;
-  background-color: #8f2ac7;
-  border: medium solid #a78eff;
-  text-align: center;
-}
-
 .container-game {
   width: 40vw;
   height: 70vh;
